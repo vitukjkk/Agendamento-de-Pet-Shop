@@ -1,0 +1,82 @@
+/* GLOBAL */
+
+:root {
+    /* =========================== */
+    /* CORES */
+    /* =========================== */
+
+    /* CONTENT */
+    --content-primary: #FFFFFF;
+    --content-secondary: #98959D;
+    --content-tertiary: #666666;
+    --content-brand: #9282FA;
+
+    /* BACKGROUND */
+    --background-primary: #151515;
+    --background-secondary: #1E1E1E;
+    --background-tertiary: #24242C;
+    --background-brand: #9282FA;
+    --background-highlights: #BDB4FA;
+
+    /* BORDER */
+    --border-primary: #3E3C41;
+    --border-secondary: #86818C;
+    --border-brand: #9282FA;
+    --border-divisor: #353339;
+
+    /* ACCENT */
+    --accent-blue: #027DF0;
+    --accent-blue-light: #16487A;
+    --accent-yellow: #F0DC02;
+    --accent-yellow-light: #656E18;
+    --accent-orange: #F09102;
+    --accent-orange-light: #75501B;
+
+    /* =========================== */
+    /* TIPOGRAFIA */
+    /* =========================== */
+    
+    /* INTER */
+    --font-primary-pmedium: 14px/24px 'Inter', sans-serif;
+    --font-primary-psmall: 12px/16px 'Inter', sans-serif;
+    --font-primary-label-large: 16px/24px 'Inter', sans-serif;
+    --font-primary-label-small: 12px/16px 'Inter', sans-serif;
+    --font-primary-link: 12px/16px 'Inter', sans-serif;
+
+    /* INTER TIGHT */
+    --font-secondary-title: 24px/32px 'Inter Tight', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: var(--font-primary-label-large);
+    color: var(--content-primary);
+    background-color: var(--background-secondary);
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+main {
+    text-align: center;
+    padding: .7rem;
+    @media (min-width: 768px) {
+        margin: 0 20%;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    span {
+        color: gray;
+    }
+}

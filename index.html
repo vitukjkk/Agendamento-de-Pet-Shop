@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<title>Agendamento de Pet Shop</title>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css">
+	</head>
+	<body>
+		<header>
+			<div class='divHeader'>
+				<h2>MUNDO PET</h2>
+			</div>
+		</header>
+
+		<main>
+			<div class='divAgendamentos'>
+				<div class='divMainHeader'>
+					<div>
+						<h1>Sua agenda</h1>
+						<span id='spanDescription'>
+							Aqui você pode ver todos os clientes e serviços agendados para hoje.
+						</span>
+					</div>
+
+					<div class='divMainHeaderSelect'>
+						<select>
+							<option>10/01/2024</option>
+						</select>
+					</div>
+				</div>
+
+
+				<div class='divHorarios'>
+					<div class='divManha'>
+						<div class='divOneAgendamento'>
+							<div class='divOneAgendamentoHeader'>
+								<span class='spanOneAgendamentoHeaderTurno'>Manhã</span>
+								<span class='spanOneAgendamentoHeaderHorario'>09-12h</span>
+							</div>
+							<div class='divOneAgendamentoDados'>
+								<div>
+									<span>09:00<span>
+									<span>Thor<span>
+									<span class='spanOneAgendamentoGray'> / Fernanda Costa</span>
+								</div>
+								<div>
+									<span class='spanOneAgendamentoGray'>Vacinação<span>
+								</div>
+								<div>
+									<button class='buttonRemoveAgendamento'>Remover agendamento</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class='divTarde'>
+						<div class='divOneAgendamento'>
+							<div class='divOneAgendamentoHeader'>
+								<span class='spanOneAgendamentoHeaderTurno'>Tarde</span>
+								<span class='spanOneAgendamentoHeaderHorario'>13-18h</span>
+							</div>
+
+							<div class='divOneAgendamentoDados'>
+								<div>
+									<span>13:00<span>
+									<span>Mel<span>
+									<span class='spanOneAgendamentoGray'> / João Souza</span>
+								</div>
+								<div>
+									<span class='spanOneAgendamentoGray'>Corte de Unhas<span>
+								</div>
+								<div>
+									<button class='buttonRemoveAgendamento'>Remover agendamento</button>
+								</div>
+							</div>
+						</div>
+
+						<div class='divOneAgendamento'>
+							<div class='divOneAgendamentoDados'>
+								<div>
+									<span>14:00<span>
+									<span>Bella<span>
+									<span class='spanOneAgendamentoGray'> / Pedro Martins</span>
+								</div>
+								<div>
+									<span class='spanOneAgendamentoGray'>Aplicação de anti-pulgas<span>
+								</div>
+								<div>
+									<button class='buttonRemoveAgendamento'>Remover agendamento</button>
+								</div>
+							</div>
+						</div>
+
+						<div class='divOneAgendamento'>
+							<div class='divOneAgendamentoDados'>
+								<div>
+									<span>15:00<span>
+									<span>Simba<span>
+									<span class='spanOneAgendamentoGray'> / Juliana Rocha</span>
+								</div>
+								<div>
+									<span class='spanOneAgendamentoGray'>Tosa Higiênica<span>
+								</div>
+								<div>
+									<button class='buttonRemoveAgendamento'>Remover agendamento</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class='divNoite'>
+						<div class='divOneAgendamento'>
+							<div class='divOneAgendamentoHeader'>
+								<span class='spanOneAgendamentoHeaderTurno'>Noite</span>
+								<span class='spanOneAgendamentoHeaderHorario'>19-21h</span>
+							</div>
+							<div class='divOneAgendamentoDados'>
+								<div>
+									<span>20:00<span>
+									<span>Max<span>
+									<span class='spanOneAgendamentoGray'> / Camila Santos</span>
+								</div>
+								<div>
+									<span class='spanOneAgendamentoGray'>Limpeza de Dentes<span>
+								</div>
+								<div>
+									<button class='buttonRemoveAgendamento'>Remover agendamento</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<button onclick='buttonCreateAgendamento()'>NOVO AGENDAMENTO</button>
+			</div>
+		</main>
+
+		<footer>
+            desenvolvido por <span>vitukjkkk</span>
+		</footer>
+        <script src="src/main.js"></script>
+	</body>
+</html>

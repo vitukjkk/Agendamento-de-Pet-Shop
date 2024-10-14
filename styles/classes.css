@@ -1,0 +1,108 @@
+/* CLASSES */
+
+/* DIVS */
+
+.divAgendamentos {
+    position: relative;
+    z-index: 1;
+}
+
+.divHeader {
+    color: var(--content-brand);
+    background-color: var(--content-tertiary);
+    padding: .2rem .8rem;
+    display: inline-block;
+    border-radius: 0 0 .6rem;
+}
+
+.divMainHeader {
+    text-align: left;
+    @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.divMainHeaderSelect {
+    margin: .5rem 0;
+    @media (min-width: 768px) {
+        justify-content: center;
+        text-align: right;
+        align-content: center;
+    }
+}
+
+.divOneAgendamento {
+    width: 100%;
+    padding: 0 0 .7rem 0;
+    display: inline-block;
+}
+
+.divOneAgendamentoHeader {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.divOneAgendamentoDados { 
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* SPANS */
+
+.spanOneAgendamentoHeaderTurno {
+    color: var(--content-primary);
+    padding: .6rem 1.5rem;
+}
+
+.spanOneAgendamentoHeaderHorario {
+    color: var(--content-secondary);
+    padding: .6rem .8rem;
+}
+
+.spanOneAgendamentoDadosService {
+    display: inline;
+}
+
+.spanOneAgendamentoGray {
+    color: var(--content-secondary)
+}
+
+.buttonRemoveAgendamento {
+    display: inline;
+    background-color: red;
+    color: var(--content-primary);
+    padding: .3rem;
+    border-radius: .4rem;
+}
+
+.buttonRemoveAgendamento:hover {
+    color: var(--content-primary);
+    background-color: red;
+    filter: grayscale(20%);
+    padding: .3rem;
+    border-radius: .4rem;
+}
+
+/* DIVHORARIOS */
+
+.divManha {
+    background-color: #454545;
+    margin: .5rem 0;
+    border-radius: .5rem;
+}
+
+.divTarde {
+    background-color: #454545;
+    margin: .5rem 0;
+    border-radius: .5rem;
+}
+
+.divNoite {
+    background-color: #454545;
+    margin: .5rem 0;
+    border-radius: .5rem;
+}
